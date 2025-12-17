@@ -3,20 +3,44 @@ import sympy as sp
 from .config import ComplexityConfig
 
 class ExpressionGenerator:
-    """Генерація виразів згідно з Axis A та Axis B[cite: 124]."""
     def __init__(self, config: ComplexityConfig):
         self.config = config
 
     def _generate_recursive(self, depth: int) -> sp.Expr:
-        if depth >= self.config.max_depth or (depth > 0 and random.random() < 0.2):
+        if depth >= self.config.max_depth:
             return self.config.x if random.random() < 0.7 else sp.Integer(random.randint(1, 5))
 
+        # Форсування асимптот для Axis C=2
+        if self.config.c == 2 and depth == 0:
+            denom = (self.config.x - random.randint(-2, 2))
+            return self._generate_recursive(depth + 1) / (denom if denom != 0 else 1)
+
         op = random.choice(self.config.available_ops)
-        if op in [sp.Add, sp.Mul]:
-            return op(self._generate_recursive(depth + 1), self._generate_recursive(depth + 1))
-        elif op == sp.Pow:
-            return op(self._generate_recursive(depth + 1), random.randint(2, 3))
-        return op(self._generate_recursive(depth + 1))
+        
+        try:
+            if op == sp.Piecewise:
+                expr = self._generate_recursive(depth + 1)
+                cond = self.config.x > random.randint(-3, 3)
+                return sp.Piecewise((expr, cond), (random.choice([0, -expr]), True))
+            
+            if op in [sp.Add, sp.Mul]:
+                return op(self._generate_recursive(depth + 1), self._generate_recursive(depth + 1))
+            
+            if op == sp.Pow:
+                return sp.Pow(self._generate_recursive(depth + 1), random.choice([2, 3, 0.5]))
+                
+            if op == sp.besselj:
+                return op(random.randint(0, 2), self._generate_recursive(depth + 1))
+
+            return op(self._generate_recursive(depth + 1))
+        except Exception:
+            return self.config.x
 
     def generate(self) -> sp.Expr:
-        return sp.simplify(self._generate_recursive(0))
+        for _ in range(5): # 5 спроб на одну генерацію
+            expr = self._generate_recursive(0)
+            simplified = sp.simplify(expr)
+            # Перевірка на "здоров'я" виразу
+            if not simplified.has(sp.oo, sp.zoo, sp.nan) and simplified != 0:
+                return simplified
+        return self.config.x
