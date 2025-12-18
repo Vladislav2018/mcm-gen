@@ -1,5 +1,7 @@
 src/__pycache__/__init__.cpython-312.pyc
 src/__pycache__/config.cpython-312.pyc
+promt.md
+mcm_gen.log
 # Python
 __pycache__/
 *.py[cod]
