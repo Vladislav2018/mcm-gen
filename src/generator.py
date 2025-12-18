@@ -8,7 +8,7 @@ class ExpressionGenerator:
 
     def _generate_recursive(self, depth: int) -> sp.Expr:
         if depth >= self.config.max_depth:
-            return self.config.x if random.random() < 0.7 else sp.Integer(random.randint(1, 5))
+            return self.config.x if random.random() < 0.8 else sp.Integer(random.randint(1, 5))
 
         # Форсування асимптот для Axis C=2
         if self.config.c == 2 and depth == 0:
@@ -27,20 +27,35 @@ class ExpressionGenerator:
                 return op(self._generate_recursive(depth + 1), self._generate_recursive(depth + 1))
             
             if op == sp.Pow:
-                return sp.Pow(self._generate_recursive(depth + 1), random.choice([2, 3, 0.5]))
+                base = self._generate_recursive(depth + 1)
+                # Уникаємо x^1.0 та x^1
+                exp = random.choice([2, 3, 0.5])
+                return sp.Pow(base, exp)
                 
             if op == sp.besselj:
                 return op(random.randint(0, 2), self._generate_recursive(depth + 1))
+
+            # Обмеження на вкладеність факторіалів (щоб не зависало)
+            if op == sp.factorial and depth > 1:
+                return self.config.x
 
             return op(self._generate_recursive(depth + 1))
         except Exception:
             return self.config.x
 
     def generate(self) -> sp.Expr:
-        for _ in range(5): # 5 спроб на одну генерацію
+        for _ in range(15):  # Збільшено кількість спроб
             expr = self._generate_recursive(0)
-            simplified = sp.simplify(expr)
-            # Перевірка на "здоров'я" виразу
+            
+            # 1. Примусове спрощення та прибирання x^1.0 (float -> int)
+            simplified = sp.nsimplify(expr).simplify()
+            
+            # 2. Фільтр: Чи є в рівнянні X?
+            if not simplified.has(self.config.x):
+                continue
+            
+            # 3. Фільтр: Чи не перетворилося все в нескінченність?
             if not simplified.has(sp.oo, sp.zoo, sp.nan) and simplified != 0:
                 return simplified
-        return self.config.x
+                
+        return self.config.x + random.randint(1, 10) # Fallback
