@@ -118,3 +118,321 @@
 2025-12-17 23:18:14,634 - MCM-Gen - INFO - Обробка класу <3,2,2>: План=2, Ручних=0
 2025-12-17 23:18:46,121 - MCM-Gen - INFO - Клас <3,2,2> завершено. Разом: 0
 2025-12-17 23:18:46,122 - MCM-Gen - INFO - Обробка класу <3,2,3>: План=2, Ручних=0
+2025-12-18 18:03:39,446 - MCM-Gen - INFO - === Початок генерації ===
+2025-12-18 18:03:39,522 - MCM-Gen - INFO - Завантажено 90 існуючих завдань.
+2025-12-18 18:03:39,522 - MCM-Gen - INFO - Завантажено 0 раніше невдалих функцій.
+2025-12-18 18:03:39,522 - MCM-Gen - INFO - Клас <0,0,0>...
+2025-12-18 18:03:43,185 - MCM-Gen - INFO - Клас <0,0,1>...
+2025-12-18 18:06:36,902 - MCM-Gen - INFO - === Початок генерації ===
+2025-12-18 18:06:36,910 - MCM-Gen - INFO - Завантажено 90 існуючих завдань.
+2025-12-18 18:06:36,910 - MCM-Gen - INFO - Завантажено 0 раніше невдалих функцій.
+2025-12-18 18:06:36,911 - MCM-Gen - INFO - Клас <0,0,0>...
+2025-12-18 18:06:37,575 - MCM-Gen - INFO - Клас <0,0,1>...
+2025-12-18 18:06:40,514 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x)
+2025-12-18 18:06:40,572 - MCM-Gen - INFO - Клас <0,0,2>...
+2025-12-18 18:06:43,374 - MCM-Gen - WARNING - TIMEOUT Points: 1/(x - 1)
+2025-12-18 18:06:46,150 - MCM-Gen - WARNING - TIMEOUT Points: x/(x + 2)
+2025-12-18 18:06:49,048 - MCM-Gen - WARNING - TIMEOUT Points: 1/(x**2 - 4)
+2025-12-18 18:06:52,371 - MCM-Gen - WARNING - TIMEOUT Points: 4/(x + 2)
+2025-12-18 18:06:55,343 - MCM-Gen - WARNING - TIMEOUT Points: x/(x - 2)
+2025-12-18 18:06:58,230 - MCM-Gen - WARNING - TIMEOUT Points: x/(x + 1)
+2025-12-18 18:07:01,359 - MCM-Gen - WARNING - TIMEOUT Points: 2/x
+2025-12-18 18:07:04,380 - MCM-Gen - WARNING - TIMEOUT Points: 3/(x + 1)
+2025-12-18 18:07:04,383 - MCM-Gen - INFO - Клас <0,0,3>...
+2025-12-18 18:07:04,471 - MCM-Gen - INFO - Клас <0,1,0>...
+2025-12-18 18:07:04,577 - MCM-Gen - INFO - Клас <0,1,1>...
+2025-12-18 18:07:08,275 - MCM-Gen - WARNING - TIMEOUT Points: log(x)
+2025-12-18 18:07:08,344 - MCM-Gen - INFO - Клас <0,1,2>...
+2025-12-18 18:07:11,435 - MCM-Gen - WARNING - TIMEOUT Points: exp(1/x)
+2025-12-18 18:07:14,518 - MCM-Gen - INFO - Клас <0,1,3>...
+2025-12-18 18:07:14,647 - MCM-Gen - INFO - Клас <0,2,0>...
+2025-12-18 18:07:18,641 - MCM-Gen - INFO - Клас <0,2,1>...
+2025-12-18 18:07:18,688 - MCM-Gen - INFO - Клас <0,2,2>...
+2025-12-18 18:07:21,935 - MCM-Gen - WARNING - TIMEOUT Points: 1/Abs(x - 0.5)
+2025-12-18 18:07:25,164 - MCM-Gen - WARNING - TIMEOUT Points: x/(x - 1)
+2025-12-18 18:07:28,100 - MCM-Gen - WARNING - TIMEOUT Points: 4/(x + 1)
+2025-12-18 18:07:28,194 - MCM-Gen - INFO - Клас <0,2,3>...
+2025-12-18 18:07:28,304 - MCM-Gen - INFO - Клас <0,3,0>...
+2025-12-18 18:07:31,088 - MCM-Gen - INFO - Клас <0,3,1>...
+2025-12-18 18:07:37,163 - MCM-Gen - WARNING - TIMEOUT Points: erf(x)
+2025-12-18 18:07:41,045 - MCM-Gen - WARNING - TIMEOUT Points: gamma(x)
+2025-12-18 18:07:41,109 - MCM-Gen - INFO - Клас <0,3,2>...
+2025-12-18 18:07:45,129 - MCM-Gen - WARNING - TIMEOUT Points: 1/erf(x)
+2025-12-18 18:07:48,452 - MCM-Gen - WARNING - TIMEOUT Points: gamma(x)/x
+2025-12-18 18:07:51,653 - MCM-Gen - WARNING - TIMEOUT Points: 1/x
+2025-12-18 18:07:55,007 - MCM-Gen - WARNING - TIMEOUT Points: 5/x
+2025-12-18 18:07:55,128 - MCM-Gen - INFO - Клас <0,3,3>...
+2025-12-18 18:07:55,211 - MCM-Gen - INFO - Клас <1,0,0>...
+2025-12-18 18:08:01,651 - MCM-Gen - INFO - Клас <1,0,1>...
+2025-12-18 18:08:04,822 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x) + 5*x
+2025-12-18 18:08:08,192 - MCM-Gen - WARNING - TIMEOUT Points: x**9
+2025-12-18 18:08:14,644 - MCM-Gen - INFO - Клас <1,0,2>...
+2025-12-18 18:08:20,837 - MCM-Gen - WARNING - TIMEOUT Points: x**2/(x + 0.5)
+2025-12-18 18:08:23,725 - MCM-Gen - WARNING - TIMEOUT Points: x**2/(x - 1)
+2025-12-18 18:08:27,078 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x)/(x + 2)
+2025-12-18 18:08:30,128 - MCM-Gen - WARNING - TIMEOUT Points: (x + 4)/(x - 1)
+2025-12-18 18:08:33,147 - MCM-Gen - WARNING - TIMEOUT Points: 2*x/(x - 2)
+2025-12-18 18:08:36,480 - MCM-Gen - WARNING - TIMEOUT Points: x**2/(x - 2)
+2025-12-18 18:08:40,016 - MCM-Gen - WARNING - TIMEOUT Points: x**2/(x + 2)
+2025-12-18 18:08:43,314 - MCM-Gen - WARNING - TIMEOUT Points: 8/(x - 2)
+2025-12-18 18:08:46,675 - MCM-Gen - WARNING - TIMEOUT Points: 9/x
+2025-12-18 18:08:49,567 - MCM-Gen - WARNING - TIMEOUT Points: (x + 3)/(x + 2)
+2025-12-18 18:08:52,616 - MCM-Gen - WARNING - TIMEOUT Points: x**2/(x + 1)
+2025-12-18 18:08:52,618 - MCM-Gen - INFO - Клас <1,0,3>...
+2025-12-18 18:08:56,113 - MCM-Gen - INFO - Згенеровано 10 нових завдань...
+2025-12-18 18:08:59,347 - MCM-Gen - INFO - Клас <1,1,0>...
+2025-12-18 18:09:05,424 - MCM-Gen - INFO - Клас <1,1,1>...
+2025-12-18 18:09:11,883 - MCM-Gen - WARNING - TIMEOUT Points: tan(log(x))
+2025-12-18 18:09:14,569 - MCM-Gen - INFO - Клас <1,1,2>...
+2025-12-18 18:09:17,474 - MCM-Gen - WARNING - TIMEOUT Points: 1/sin(x)
+2025-12-18 18:09:20,237 - MCM-Gen - WARNING - TIMEOUT Points: exp(x)/(x - 2)
+2025-12-18 18:09:23,284 - MCM-Gen - WARNING - TIMEOUT Points: exp(x)/(x - 1)
+2025-12-18 18:09:26,209 - MCM-Gen - WARNING - TIMEOUT Points: 2*x/(x + 2)
+2025-12-18 18:09:29,179 - MCM-Gen - WARNING - TIMEOUT Points: log(x)/(x + 1)
+2025-12-18 18:09:32,070 - MCM-Gen - WARNING - TIMEOUT Points: tan(x)/x
+2025-12-18 18:09:35,311 - MCM-Gen - WARNING - TIMEOUT Points: 2*x/(x - 1)
+2025-12-18 18:09:38,336 - MCM-Gen - WARNING - TIMEOUT Points: cos(x)/x
+2025-12-18 18:09:41,124 - MCM-Gen - WARNING - TIMEOUT Points: log(x)/(x - 1)
+2025-12-18 18:09:41,159 - MCM-Gen - INFO - Клас <1,1,3>...
+2025-12-18 18:09:47,086 - MCM-Gen - WARNING - TIMEOUT Points: log(cos(x))
+2025-12-18 18:09:49,801 - MCM-Gen - INFO - Клас <1,2,0>...
+2025-12-18 18:09:55,238 - MCM-Gen - INFO - Клас <1,2,1>...
+2025-12-18 18:09:57,979 - MCM-Gen - INFO - Згенеровано 20 нових завдань...
+2025-12-18 18:10:01,225 - MCM-Gen - WARNING - TIMEOUT Points: gamma(Abs(x) + 1)
+2025-12-18 18:10:04,023 - MCM-Gen - INFO - Клас <1,2,2>...
+2025-12-18 18:10:07,079 - MCM-Gen - WARNING - TIMEOUT Points: floor(x)/(x - 1)
+2025-12-18 18:10:10,090 - MCM-Gen - WARNING - TIMEOUT Points: Abs(x)/(x + 1.5)
+2025-12-18 18:10:13,704 - MCM-Gen - WARNING - TIMEOUT Points: tan(x)/(x - 2)
+2025-12-18 18:10:17,431 - MCM-Gen - WARNING - TIMEOUT Points: log(x)/(x + 2)
+2025-12-18 18:10:21,227 - MCM-Gen - WARNING - TIMEOUT Points: cos(x)/(x - 1)
+2025-12-18 18:10:24,810 - MCM-Gen - WARNING - TIMEOUT Points: gamma(x + 1)/(x + 2)
+2025-12-18 18:10:28,260 - MCM-Gen - WARNING - TIMEOUT Points: log(x)/(x - 2)
+2025-12-18 18:10:31,331 - MCM-Gen - WARNING - TIMEOUT Points: cos(x)/(x + 1)
+2025-12-18 18:10:34,131 - MCM-Gen - WARNING - TIMEOUT Points: cos(x)/(x - 2)
+2025-12-18 18:10:34,134 - MCM-Gen - INFO - Клас <1,2,3>...
+2025-12-18 18:10:39,570 - MCM-Gen - WARNING - TIMEOUT Points: gamma(x**2 + 1)
+2025-12-18 18:10:43,608 - MCM-Gen - WARNING - TIMEOUT Points: cos(sqrt(x))
+2025-12-18 18:10:48,533 - MCM-Gen - INFO - Клас <1,3,0>...
+2025-12-18 18:10:54,317 - MCM-Gen - WARNING - TIMEOUT Points: Abs(sin(x))
+2025-12-18 18:10:58,660 - MCM-Gen - INFO - Клас <1,3,1>...
+2025-12-18 18:11:02,219 - MCM-Gen - WARNING - TIMEOUT Points: gamma(2*x)
+2025-12-18 18:11:05,651 - MCM-Gen - WARNING - TIMEOUT Points: tan(erf(x))
+2025-12-18 18:11:08,683 - MCM-Gen - WARNING - TIMEOUT Points: erf(besselj(1, x))
+2025-12-18 18:11:14,806 - MCM-Gen - WARNING - TIMEOUT Points: besselj(1, factorial(x))
+2025-12-18 18:11:17,838 - MCM-Gen - WARNING - TIMEOUT Points: zeta(log(x))
+2025-12-18 18:11:21,560 - MCM-Gen - WARNING - TIMEOUT Points: -besselj(0, cos(x)) + 2*besselj(1, cos(x))/cos(x)
+2025-12-18 18:11:24,619 - MCM-Gen - WARNING - TIMEOUT Points: sin(gamma(x))
+2025-12-18 18:11:28,346 - MCM-Gen - WARNING - TIMEOUT Points: erf(Abs(x))
+2025-12-18 18:11:31,601 - MCM-Gen - INFO - Клас <1,3,2>...
+2025-12-18 18:11:34,730 - MCM-Gen - WARNING - TIMEOUT Points: zeta(x + 1.1)
+2025-12-18 18:11:37,664 - MCM-Gen - WARNING - TIMEOUT Points: 1/gamma(x)
+2025-12-18 18:11:40,669 - MCM-Gen - WARNING - TIMEOUT Points: zeta(x)/(x + 2)
+2025-12-18 18:11:43,742 - MCM-Gen - WARNING - TIMEOUT Points: zeta(x)/(x + 1)
+2025-12-18 18:11:46,813 - MCM-Gen - WARNING - TIMEOUT Points: zeta(5)/(x - 2)
+2025-12-18 18:11:50,129 - MCM-Gen - WARNING - TIMEOUT Points: erf(x)/(x + 1)
+2025-12-18 18:11:53,533 - MCM-Gen - WARNING - TIMEOUT Points: erf(x)/x
+2025-12-18 18:11:56,547 - MCM-Gen - WARNING - TIMEOUT Points: sin(x)/x
+2025-12-18 18:11:59,933 - MCM-Gen - WARNING - TIMEOUT Points: 2/(x + 2)
+2025-12-18 18:12:03,954 - MCM-Gen - WARNING - TIMEOUT Points: gamma(x + 1)/(x + 1)
+2025-12-18 18:12:06,913 - MCM-Gen - WARNING - TIMEOUT Points: 5*x/(x + 2)
+2025-12-18 18:12:09,777 - MCM-Gen - WARNING - TIMEOUT Points: besselj(2, x)/(x - 2)
+2025-12-18 18:12:09,809 - MCM-Gen - INFO - Клас <1,3,3>...
+2025-12-18 18:12:12,328 - MCM-Gen - WARNING - TIMEOUT Points: besselj(1, erf(x))
+2025-12-18 18:12:18,511 - MCM-Gen - WARNING - TIMEOUT Points: besselj(1, x)
+2025-12-18 18:12:21,686 - MCM-Gen - INFO - Клас <2,0,0>...
+2025-12-18 18:12:27,400 - MCM-Gen - INFO - Згенеровано 30 нових завдань...
+2025-12-18 18:12:27,400 - MCM-Gen - INFO - Клас <2,0,1>...
+2025-12-18 18:12:30,411 - MCM-Gen - WARNING - TIMEOUT Points: 3*sqrt(x) + x**2
+2025-12-18 18:12:36,547 - MCM-Gen - WARNING - TIMEOUT Points: x**4*sqrt(x**3)
+2025-12-18 18:12:39,517 - MCM-Gen - INFO - Клас <2,0,2>...
+2025-12-18 18:12:42,573 - MCM-Gen - WARNING - TIMEOUT Points: (x**2 + 1)/(x*(x - 2))
+2025-12-18 18:12:46,012 - MCM-Gen - WARNING - TIMEOUT Points: 1/(x**3 - x)
+2025-12-18 18:12:48,846 - MCM-Gen - WARNING - TIMEOUT Points: x**6/(x - 2)
+2025-12-18 18:12:51,777 - MCM-Gen - WARNING - TIMEOUT Points: 8*x**2/(x + 2)
+2025-12-18 18:12:54,643 - MCM-Gen - WARNING - TIMEOUT Points: 7*x/(x + 2)
+2025-12-18 18:12:57,863 - MCM-Gen - WARNING - TIMEOUT Points: 8*x**3/(x - 1)
+2025-12-18 18:13:00,726 - MCM-Gen - WARNING - TIMEOUT Points: 14142135623731*sqrt(x)/(10000000000000*(x + 2))
+2025-12-18 18:13:03,391 - MCM-Gen - WARNING - TIMEOUT Points: x**(5/2)/(x + 1)
+2025-12-18 18:13:06,070 - MCM-Gen - WARNING - TIMEOUT Points: 223606797749979*x/(50000000000000*(x - 1))
+2025-12-18 18:13:08,713 - MCM-Gen - WARNING - TIMEOUT Points: 8*x**3/(x - 2)
+2025-12-18 18:13:08,715 - MCM-Gen - INFO - Клас <2,0,3>...
+2025-12-18 18:13:11,429 - MCM-Gen - WARNING - TIMEOUT Points: x**(5/2)*(x + 2)**3
+2025-12-18 18:13:14,044 - MCM-Gen - WARNING - TIMEOUT Points: (x**3)**(1/4)
+2025-12-18 18:13:19,125 - MCM-Gen - WARNING - TIMEOUT Points: x**18
+2025-12-18 18:13:21,788 - MCM-Gen - WARNING - TIMEOUT Points: 223606797749979*sqrt(x)/100000000000000 + 4*x**2
+2025-12-18 18:13:24,660 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x*(x + 2))
+2025-12-18 18:13:28,578 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x*(x**2 + 2))
+2025-12-18 18:13:31,428 - MCM-Gen - INFO - Клас <2,1,0>...
+2025-12-18 18:13:34,402 - MCM-Gen - WARNING - TIMEOUT Points: 3*x*sin(x) + log(x**2)
+2025-12-18 18:13:42,729 - MCM-Gen - INFO - Клас <2,1,1>...
+2025-12-18 18:13:48,241 - MCM-Gen - INFO - Клас <2,1,2>...
+2025-12-18 18:13:53,965 - MCM-Gen - WARNING - TIMEOUT Points: log(Abs(x - 1))
+2025-12-18 18:13:56,718 - MCM-Gen - WARNING - TIMEOUT Points: log(exp(x))/(x - 1)
+2025-12-18 18:13:59,758 - MCM-Gen - WARNING - TIMEOUT Points: sin(log(x))/(x - 1)
+2025-12-18 18:14:02,947 - MCM-Gen - WARNING - TIMEOUT Points: cos(tan(x))/(x + 2)
+2025-12-18 18:14:06,295 - MCM-Gen - WARNING - TIMEOUT Points: sin(sin(x))/(x + 1)
+2025-12-18 18:14:09,539 - MCM-Gen - WARNING - TIMEOUT Points: log(log(x))/(x - 1)
+2025-12-18 18:14:12,632 - MCM-Gen - WARNING - TIMEOUT Points: 2*exp(x)/(x + 1)
+2025-12-18 18:14:15,792 - MCM-Gen - WARNING - TIMEOUT Points: tan(sin(x))/(x - 1)
+2025-12-18 18:14:18,862 - MCM-Gen - WARNING - TIMEOUT Points: (2*x + cos(1))/(x + 2)
+2025-12-18 18:14:21,590 - MCM-Gen - WARNING - TIMEOUT Points: log(x**2)/(x - 2)
+2025-12-18 18:14:24,268 - MCM-Gen - WARNING - TIMEOUT Points: exp(5)*log(x)/(x + 2)
+2025-12-18 18:14:27,744 - MCM-Gen - WARNING - TIMEOUT Points: cos(log(x))/(x + 2)
+2025-12-18 18:14:27,777 - MCM-Gen - INFO - Клас <2,1,3>...
+2025-12-18 18:14:31,373 - MCM-Gen - INFO - Згенеровано 40 нових завдань...
+2025-12-18 18:14:34,606 - MCM-Gen - INFO - Клас <2,2,0>...
+2025-12-18 18:14:40,281 - MCM-Gen - WARNING - TIMEOUT Points: log(2*x**2)
+2025-12-18 18:14:43,442 - MCM-Gen - INFO - Клас <2,2,1>...
+2025-12-18 18:14:46,349 - MCM-Gen - WARNING - TIMEOUT Points: gamma(log(x) + 1)
+2025-12-18 18:14:49,274 - MCM-Gen - WARNING - TIMEOUT Points: gamma(cos(x) + 1)
+2025-12-18 18:14:55,323 - MCM-Gen - INFO - Клас <2,2,2>...
+2025-12-18 18:14:58,119 - MCM-Gen - WARNING - TIMEOUT Points: Abs(x)/(x - 1)
+2025-12-18 18:15:00,903 - MCM-Gen - WARNING - TIMEOUT Points: gamma(floor(Abs(x)) + 1)/(x + 2)
+2025-12-18 18:15:03,786 - MCM-Gen - WARNING - TIMEOUT Points: Abs(x + 5)/x
+2025-12-18 18:15:06,860 - MCM-Gen - WARNING - TIMEOUT Points: Abs(floor(x))/x
+2025-12-18 18:15:10,110 - MCM-Gen - WARNING - TIMEOUT Points: 2*Abs(x)/(x + 2)
+2025-12-18 18:15:13,214 - MCM-Gen - WARNING - TIMEOUT Points: log(floor(x))/(x + 1)
+2025-12-18 18:15:16,808 - MCM-Gen - WARNING - TIMEOUT Points: (x**2 + Abs(x))/(x + 1)
+2025-12-18 18:15:20,655 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(tan(x))/(x - 1)
+2025-12-18 18:15:23,943 - MCM-Gen - WARNING - TIMEOUT Points: cos(sin(x))/(x - 1)
+2025-12-18 18:15:27,447 - MCM-Gen - WARNING - TIMEOUT Points: gamma(sin(x) + 1)/(x + 2)
+2025-12-18 18:15:30,918 - MCM-Gen - WARNING - TIMEOUT Points: tan(exp(x))/(x + 1)
+2025-12-18 18:15:33,915 - MCM-Gen - WARNING - TIMEOUT Points: exp(tan(4))/x
+2025-12-18 18:15:33,917 - MCM-Gen - INFO - Клас <2,2,3>...
+2025-12-18 18:15:39,767 - MCM-Gen - INFO - Клас <2,3,0>...
+2025-12-18 18:15:46,543 - MCM-Gen - INFO - Клас <2,3,1>...
+2025-12-18 18:15:49,501 - MCM-Gen - INFO - Згенеровано 50 нових завдань...
+2025-12-18 18:15:51,939 - MCM-Gen - WARNING - TIMEOUT Points: gamma(zeta(floor(x)))
+2025-12-18 18:15:54,826 - MCM-Gen - WARNING - TIMEOUT Points: gamma(floor(zeta(x)) + 1)
+2025-12-18 18:15:57,636 - MCM-Gen - INFO - Клас <2,3,2>...
+2025-12-18 18:16:00,359 - MCM-Gen - WARNING - TIMEOUT Points: besselj(0, x)/(x - 0.5)
+2025-12-18 18:16:03,367 - MCM-Gen - WARNING - TIMEOUT Points: erf(x)/(x**2 - 1)
+2025-12-18 18:16:06,109 - MCM-Gen - WARNING - TIMEOUT Points: Abs(log(x))/(x - 1)
+2025-12-18 18:16:08,870 - MCM-Gen - WARNING - TIMEOUT Points: besselj(0, tan(4))/x
+2025-12-18 18:16:11,572 - MCM-Gen - WARNING - TIMEOUT Points: gamma(erf(3) + 1)/(x - 2)
+2025-12-18 18:16:14,320 - MCM-Gen - WARNING - TIMEOUT Points: sin(Abs(x))/(x - 1)
+2025-12-18 18:16:17,924 - MCM-Gen - WARNING - TIMEOUT Points: tan(sqrt(x))/(x - 2)
+2025-12-18 18:16:20,884 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(sin(x))/(x - 2)
+2025-12-18 18:16:23,625 - MCM-Gen - WARNING - TIMEOUT Points: floor(3*x)/(x + 2)
+2025-12-18 18:16:26,220 - MCM-Gen - WARNING - TIMEOUT Points: besselj(0, x)*floor(x)/x
+2025-12-18 18:16:29,160 - MCM-Gen - WARNING - TIMEOUT Points: cos(erf(x))/x
+2025-12-18 18:16:31,836 - MCM-Gen - WARNING - TIMEOUT Points: log(floor(x))/x
+2025-12-18 18:16:34,612 - MCM-Gen - WARNING - TIMEOUT Points: floor(x)/(x - 2)
+2025-12-18 18:16:37,388 - MCM-Gen - WARNING - TIMEOUT Points: sin(2*x)/x
+2025-12-18 18:16:37,390 - MCM-Gen - INFO - Клас <2,3,3>...
+2025-12-18 18:16:40,227 - MCM-Gen - WARNING - TIMEOUT Points: gamma(gamma(Abs(x) + 1) + 1)
+2025-12-18 18:16:45,928 - MCM-Gen - WARNING - TIMEOUT Points: zeta(log(gamma(x)))
+2025-12-18 18:16:49,513 - MCM-Gen - WARNING - TIMEOUT Points: zeta(Piecewise((Piecewise((5, x > -3), (-5, True)), x > 3), (0, True)))
+2025-12-18 18:16:52,723 - MCM-Gen - WARNING - TIMEOUT Points: log(floor(x)**3)
+2025-12-18 18:16:55,501 - MCM-Gen - WARNING - TIMEOUT Points: zeta(Piecewise((x, x > 2), (0, True)))
+2025-12-18 18:16:58,158 - MCM-Gen - INFO - Клас <3,0,0>...
+2025-12-18 18:17:01,934 - MCM-Gen - WARNING - TIMEOUT Points: 68719476736*x**18*sqrt((x**2 + 4)**3)
+2025-12-18 18:17:02,691 - MCM-Gen - INFO - Клас <3,0,1>...
+2025-12-18 18:17:05,559 - MCM-Gen - WARNING - TIMEOUT Points: 4*x**4*(x**2 + 2)**2*(x**4)**(1/4)
+2025-12-18 18:17:08,896 - MCM-Gen - WARNING - TIMEOUT Points: 156767343538123*x**4*(sqrt(x) + 2*x)**2*(sqrt(x) + x**4 + 9)*sqrt(x**2)/1000000000000
+2025-12-18 18:17:12,413 - MCM-Gen - WARNING - TIMEOUT Points: x**3*(x + 1)*(x + 2) + x**3*(x + 2)**3 + sqrt(sqrt(x) + 9*x**3)
+2025-12-18 18:17:16,043 - MCM-Gen - WARNING - TIMEOUT Points: 45254833995939*x**6*(14142135623731*sqrt(x) + 10000000000000*x**2 + 30000000000000*x)*(x**3 + x**2 + 3*x + 4)*sqrt(x**3)/2500000000000000000000000
+2025-12-18 18:17:19,237 - MCM-Gen - WARNING - TIMEOUT Points: 4*x**11*(x + 3)*(4*x**2*sqrt(x + 4) + (x + 2)**2)
+2025-12-18 18:17:22,594 - MCM-Gen - WARNING - TIMEOUT Points: x**2*sqrt(x*(x**4 + 1))*(16*x**2 + 1953125*x + 1953125)
+2025-12-18 18:17:25,552 - MCM-Gen - WARNING - TIMEOUT Points: 16384*x**30
+2025-12-18 18:17:28,772 - MCM-Gen - WARNING - TIMEOUT Points: 122474487139159*sqrt(2)*sqrt(x**2*(sqrt(x) + 2*x)*(2*x + 1))/50000000000000
+2025-12-18 18:17:34,926 - MCM-Gen - WARNING - TIMEOUT Points: 2*x*(x + 1)**6*(2*x**4 + x**2 + 4*x + sqrt(x**3))
+2025-12-18 18:17:37,963 - MCM-Gen - WARNING - TIMEOUT Points: 4194304*x**9*(3*x + 2)*(9*x**2 + 2)
+2025-12-18 18:17:41,136 - MCM-Gen - WARNING - TIMEOUT Points: 64*x**10 + x**9 + 7*x + (x**2)**(3/2)
+2025-12-18 18:17:41,139 - MCM-Gen - INFO - Клас <3,0,2>...
+2025-12-18 18:17:44,288 - MCM-Gen - WARNING - TIMEOUT Points: (x**3 + x)/(x**2 - 4)
+2025-12-18 18:17:49,924 - MCM-Gen - WARNING - TIMEOUT Points: 2*x**(41/4)*(x**2 + 1)/(x + 1)
+2025-12-18 18:17:52,764 - MCM-Gen - WARNING - TIMEOUT Points: 25*x**10/(x - 1)
+2025-12-18 18:17:55,870 - MCM-Gen - WARNING - TIMEOUT Points: 64*(x + 4)**(3/2)/(x - 1)
+2025-12-18 18:17:58,799 - MCM-Gen - WARNING - TIMEOUT Points: x**6*(x + 2)**6/(x - 1)
+2025-12-18 18:18:01,743 - MCM-Gen - WARNING - TIMEOUT Points: (x**2*(sqrt(x) + 2*x)*(x + 1) + 5*x**2 + x + 3)/x
+2025-12-18 18:18:05,159 - MCM-Gen - WARNING - TIMEOUT Points: sqrt((sqrt(x) + 2*x)**2)/(x - 1)
+2025-12-18 18:18:07,991 - MCM-Gen - WARNING - TIMEOUT Points: x**13/(x - 1)
+2025-12-18 18:18:11,006 - MCM-Gen - WARNING - TIMEOUT Points: 5*x**3/(x + 1)
+2025-12-18 18:18:13,970 - MCM-Gen - WARNING - TIMEOUT Points: 4*x**2*sqrt(x + 2)*(2*x**(3/2) + (x + 2)**2)/(x - 1)
+2025-12-18 18:18:16,945 - MCM-Gen - WARNING - TIMEOUT Points: 16*x**4*(x + 3)*(x**2)**(3/2)/(x + 1)
+2025-12-18 18:18:19,966 - MCM-Gen - WARNING - TIMEOUT Points: (2*x**3 + 2*x + (x**2 + x + 4)*sqrt(x**2) + 6)/(x + 2)
+2025-12-18 18:18:19,983 - MCM-Gen - INFO - Клас <3,0,3>...
+2025-12-18 18:18:23,273 - MCM-Gen - WARNING - TIMEOUT Points: 64*x**6*(x + 2)**6*(4*x**2*(x**2 + x + 4) + (x**2)**(3/2))
+2025-12-18 18:18:26,614 - MCM-Gen - WARNING - TIMEOUT Points: 282842712474619*sqrt(x**(17/2)*(x**2 + 2))/50000000000000
+2025-12-18 18:18:29,900 - MCM-Gen - WARNING - TIMEOUT Points: x**4 + x**3 + x**2 + (sqrt(x) + 64)*(sqrt(x) + x**2) + (sqrt(x) + 3*x)**(1/4)
+2025-12-18 18:18:33,203 - MCM-Gen - WARNING - TIMEOUT Points: 80*x**(7/2)*(x + 3)**2 + 64*x**7*(2*x + 1)
+2025-12-18 18:18:36,080 - MCM-Gen - WARNING - TIMEOUT Points: 9*sqrt(x) + 16*x**8*(x + 3)**2 + x**6*(x + 3) + 9*x**2
+2025-12-18 18:18:38,959 - MCM-Gen - WARNING - TIMEOUT Points: 6*x**6 + (x**2 + 5*x + sqrt(x**2))*(x**2*(x + 3) + x + 8)
+2025-12-18 18:18:41,926 - MCM-Gen - WARNING - TIMEOUT Points: x**2*(10*x + (x + 2)*(x**2 + 1) + 2)*(x**2 + 4*x + 2)**2
+2025-12-18 18:18:45,508 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(424264068711930*x**(9/2) + 1838477631085030*x**(7/2) + 1697056274847720*x**(5/2) + 300000000000000*x**10 + 1300000000000000*x**9 + 1200000000000000*x**8)/10000000
+2025-12-18 18:18:48,464 - MCM-Gen - WARNING - TIMEOUT Points: x**(1/4) + x**(5/2) + 14142135623731*sqrt(x)/10000000000000 + 5*x**3 + 30*x**2 + 7*x + sqrt(x**2) + 10
+2025-12-18 18:18:51,497 - MCM-Gen - WARNING - TIMEOUT Points: 1600*x**5*(sqrt(x) + 4)**6*sqrt(x**2)
+2025-12-18 18:18:55,324 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(x**3*(x + 2)*(x**2 + 2)*(x**4 + x**2 + 2))
+2025-12-18 18:18:58,417 - MCM-Gen - WARNING - TIMEOUT Points: 5*x**3*(64*x**3 + sqrt(x**2))*(2*sqrt(x) + 627*x + 6)*sqrt(x**2)
+2025-12-18 18:18:58,419 - MCM-Gen - INFO - Клас <3,1,0>...
+2025-12-18 18:19:04,189 - MCM-Gen - INFO - Клас <3,1,1>...
+2025-12-18 18:19:06,889 - MCM-Gen - WARNING - TIMEOUT Points: sin(log(x**3)**3*sqrt(log(exp(x))))
+2025-12-18 18:19:10,279 - MCM-Gen - WARNING - TIMEOUT Points: sin(exp(exp(tan(x)**2)))
+2025-12-18 18:19:14,002 - MCM-Gen - WARNING - TIMEOUT Points: x**4 + (sqrt(log(x)) + log(cos(x)))**2
+2025-12-18 18:19:20,070 - MCM-Gen - WARNING - TIMEOUT Points: x**(4*sin(1))
+2025-12-18 18:19:23,937 - MCM-Gen - WARNING - TIMEOUT Points: sqrt(log(sin(x**2))) + cos(tan(cos(2*x)))
+2025-12-18 18:19:27,108 - MCM-Gen - WARNING - TIMEOUT Points: log(-27312998290769*x**6/12500000000000)**2
+2025-12-18 18:19:30,125 - MCM-Gen - INFO - Клас <3,1,2>...
+2025-12-18 18:19:33,066 - MCM-Gen - WARNING - TIMEOUT Points: log(Abs(sin(x)))
+2025-12-18 18:19:36,145 - MCM-Gen - WARNING - TIMEOUT Points: exp(tan(x))
+2025-12-18 18:19:41,330 - MCM-Gen - WARNING - TIMEOUT Metadata: cos(sin(tan(x**2)))/(x - 1)
+2025-12-18 18:19:44,391 - MCM-Gen - WARNING - TIMEOUT Points: log(4*x**6)/(x + 2)
+2025-12-18 18:19:47,780 - MCM-Gen - WARNING - TIMEOUT Points: (log(x**2*tan(x)) + sin(2*x)**2)/(x + 2)
+2025-12-18 18:19:50,824 - MCM-Gen - WARNING - TIMEOUT Points: log(exp(sin(x)))/(2*(x + 1))
+2025-12-18 18:19:54,094 - MCM-Gen - WARNING - TIMEOUT Points: sin(x**2 + sin(x) + sin(sin(x)))/(x + 1)
+2025-12-18 18:19:57,847 - MCM-Gen - WARNING - TIMEOUT Points: (tan(x) + log(tan(tan(3))))/x
+2025-12-18 18:20:01,683 - MCM-Gen - WARNING - TIMEOUT Points: exp(sqrt(sin(1)))*tan(cos(log(x)))/(x + 2)
+2025-12-18 18:20:05,385 - MCM-Gen - WARNING - TIMEOUT Points: log(x**6*sin(x)**3)/(x + 2)
+2025-12-18 18:20:09,812 - MCM-Gen - WARNING - TIMEOUT Points: -9*x**2*sin(2*x)*tan(cos(2*x)/2 - 1/2)/(2*x - 2)
+2025-12-18 18:20:13,374 - MCM-Gen - WARNING - TIMEOUT Points: cos(log(x) + sin(x)**2 + sin(x))/x
+2025-12-18 18:20:16,506 - MCM-Gen - WARNING - TIMEOUT Points: sin(log(sin(x**3)))/(x - 2)
+2025-12-18 18:20:16,509 - MCM-Gen - INFO - Клас <3,1,3>...
+2025-12-18 18:20:20,530 - MCM-Gen - INFO - Згенеровано 60 нових завдань...
+2025-12-18 18:20:23,736 - MCM-Gen - WARNING - TIMEOUT Points: log(2*x + exp(x**3) + cos(2)) + sin(exp(2))
+2025-12-18 18:20:27,189 - MCM-Gen - WARNING - TIMEOUT Points: tan(sqrt(tan(cos(exp(x)))))
+2025-12-18 18:20:30,817 - MCM-Gen - WARNING - TIMEOUT Points: sin(sin(log(cos(x))/2))
+2025-12-18 18:20:33,539 - MCM-Gen - INFO - Клас <3,2,0>...
+2025-12-18 18:20:40,114 - MCM-Gen - INFO - Клас <3,2,1>...
+2025-12-18 18:20:46,203 - MCM-Gen - INFO - Клас <3,2,2>...
+2025-12-18 18:20:52,009 - MCM-Gen - WARNING - TIMEOUT Points: floor(exp(x))/(x - 2.5)
+2025-12-18 18:20:54,959 - MCM-Gen - WARNING - TIMEOUT Points: floor(sin(x))/(x - 1)
+2025-12-18 18:20:58,818 - MCM-Gen - WARNING - TIMEOUT Points: exp(sin((re(x)**2 + im(x)**2)**(1/4)*cos(atan2(im(x), re(x))/2))*cosh((re(x)**2 + im(x)**2)**(1/4)*sin(atan2(im(x), re(x))/2)))/(x - 2)
+2025-12-18 18:21:02,032 - MCM-Gen - WARNING - TIMEOUT Points: log(x)/x
+2025-12-18 18:21:05,002 - MCM-Gen - WARNING - TIMEOUT Points: sin(x**3)/(x - 1)
+2025-12-18 18:21:09,198 - MCM-Gen - WARNING - TIMEOUT Points: (log(-cos(exp(5))) + I*pi)*cos(log(x))*tan(cos(x))/(x - 1)
+2025-12-18 18:21:10,717 - MCM-Gen - INFO - Клас <3,2,3>...
+2025-12-18 18:21:13,727 - MCM-Gen - WARNING - TIMEOUT Points: Abs(gamma(Abs(log(sin(x))) + 1))
+2025-12-18 18:21:16,758 - MCM-Gen - WARNING - TIMEOUT Points: log(Piecewise((log(x)*Abs(x), x > 3), (0, True)) + log(x) + Abs(x**3) + exp(4))
+2025-12-18 18:21:19,717 - MCM-Gen - WARNING - TIMEOUT Points: log(log(Abs(x)))*tan(x) + floor(x)
+2025-12-18 18:21:22,583 - MCM-Gen - WARNING - TIMEOUT Points: gamma(tan(x) + 1)
+2025-12-18 18:21:26,226 - MCM-Gen - WARNING - TIMEOUT Points: log((floor(sin(x)) + 4)*tan(log(exp(x))))
+2025-12-18 18:21:29,160 - MCM-Gen - WARNING - TIMEOUT Points: log(log(exp(x)))
+2025-12-18 18:21:32,456 - MCM-Gen - WARNING - TIMEOUT Points: log(x*cos(floor(cos(x))))
+2025-12-18 18:21:38,996 - MCM-Gen - WARNING - TIMEOUT Points: Abs(Piecewise((log(3*x)*log(x + 4) + tan(x), x > -2), (log(3*x)*log(x + 4), True)))
+2025-12-18 18:21:42,390 - MCM-Gen - WARNING - TIMEOUT Points: gamma(Piecewise((gamma(x*cos(x) + x*Abs(x) + 1) + 1, x > 2), (2, True)))
+2025-12-18 18:21:47,521 - MCM-Gen - WARNING - TIMEOUT Metadata: sqrt(exp(floor(sin(log(x)))))
+2025-12-18 18:21:47,523 - MCM-Gen - INFO - Клас <3,3,0>...
+2025-12-18 18:21:51,935 - MCM-Gen - INFO - Клас <3,3,1>...
+2025-12-18 18:21:55,078 - MCM-Gen - WARNING - TIMEOUT Points: x*tan(x)*Abs(log(besselj(0, x)))
+2025-12-18 18:21:58,203 - MCM-Gen - WARNING - TIMEOUT Points: gamma(log(floor(cos(Abs(x)))))
+2025-12-18 18:22:01,488 - MCM-Gen - WARNING - TIMEOUT Points: exp(besselj(1, exp(besselj(0, 1))))*log(besselj(2, floor(x)))
+2025-12-18 18:22:04,463 - MCM-Gen - WARNING - TIMEOUT Points: tan(gamma(log(tan(gamma(x)))))
+2025-12-18 18:22:07,420 - MCM-Gen - WARNING - TIMEOUT Points: Piecewise((log(zeta(Piecewise((cos(4), x > -1), (0, True)))), x > -1), (0, True))
+2025-12-18 18:22:10,390 - MCM-Gen - WARNING - TIMEOUT Points: gamma(gamma(exp(x) + 1))
+2025-12-18 18:22:13,323 - MCM-Gen - WARNING - TIMEOUT Points: log(floor(floor(x) + zeta(x)))
+2025-12-18 18:22:21,774 - MCM-Gen - WARNING - TIMEOUT Points: Piecewise(((log(-gamma(tan(3) + 1)/tan(3)) + I*pi)*besselj(1, erf(erf(3))), x > 0), (0, True))
+2025-12-18 18:22:26,606 - MCM-Gen - WARNING - TIMEOUT Points: Piecewise((exp(Abs(cos(besselj(0, x) - 2*besselj(1, x)/x) + exp(5))), x > 1), (exp(Abs(cos(besselj(0, x) - 2*besselj(1, x)/x))), True))
+2025-12-18 18:22:29,698 - MCM-Gen - WARNING - TIMEOUT Points: cos(Piecewise((log(exp(x))**3, x > -2), (log(-exp(x))**3, True)))
+2025-12-18 18:22:35,726 - MCM-Gen - WARNING - TIMEOUT Points: Abs(Piecewise((x - tan((x*besselj(0, x) - 2*besselj(1, x))*gamma(x)/x) + zeta(tan(x)), x > -1), (tan(besselj(2, x)*gamma(x)) + zeta(tan(x)), True)))
+2025-12-18 18:22:35,730 - MCM-Gen - INFO - Клас <3,3,2>...
+2025-12-18 18:22:39,242 - MCM-Gen - WARNING - TIMEOUT Points: 0.4*gamma(x)/(0.4*x - 1.0)
+2025-12-18 18:22:42,329 - MCM-Gen - WARNING - TIMEOUT Points: 1/zeta(Abs(x) + 1.1)
+2025-12-18 18:22:45,521 - MCM-Gen - WARNING - TIMEOUT Points: floor(cos(Abs(x)))/(x + 1)
+2025-12-18 18:22:49,348 - MCM-Gen - WARNING - TIMEOUT Points: (x*exp(x) + (x + 1)**3)*tan(besselj(0, log(x)))/(x - 1)
+2025-12-18 18:22:55,765 - MCM-Gen - WARNING - TIMEOUT Points: erf(log(floor(x)))/(x - 1)
+2025-12-18 18:23:02,302 - MCM-Gen - WARNING - TIMEOUT Points: gamma(exp(cos(x)))**3/(x + 2)
+2025-12-18 18:23:05,201 - MCM-Gen - WARNING - TIMEOUT Points: sin(exp(erf(exp(x))))/(x + 1)
+2025-12-18 18:23:10,258 - MCM-Gen - WARNING - TIMEOUT Points: gamma(gamma(log(zeta(x))))/(x - 1)
+2025-12-18 18:23:11,006 - MCM-Gen - INFO - Клас <3,3,3>...
+2025-12-18 18:23:14,889 - MCM-Gen - INFO - Згенеровано 70 нових завдань...
