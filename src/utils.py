@@ -15,7 +15,7 @@ def setup_logging():
     if logger.hasHandlers():
         logger.handlers.clear()
 
-    file_handler = logging.FileHandler("mcm_gen.log", encoding="utf-8")
+    file_handler = logging.FileHandler("logs/mcm_gen.log", encoding="utf-8")
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(formatter)
 
@@ -60,33 +60,4 @@ def append_to_file(filepath: str, data: Dict[str, Any]):
         f.write(json.dumps(data, ensure_ascii=False) + "\n")
 
 # --- TIMEOUT INFRASTRUCTURE ---
-
-def _worker(func, args, queue):
-    """Допоміжний воркер для запуску функції в окремому процесі."""
-    try:
-        result = func(*args)
-        queue.put((True, result))
-    except Exception as e:
-        queue.put((False, str(e)))
-
-def run_with_timeout(func, args=(), timeout=5):
-    """
-    Запускає функцію в окремому процесі з обмеженням часу.
-    Повертає (success, result/error_message).
-    Якщо timeout - success=False, error="Timeout".
-    """
-    queue = multiprocessing.Queue()
-    p = multiprocessing.Process(target=_worker, args=(func, args, queue))
-    p.start()
-    
-    p.join(timeout)
-    
-    if p.is_alive():
-        p.terminate()
-        p.join()
-        return False, "Timeout"
-    
-    if not queue.empty():
-        return queue.get()
-    
-    return False, "Unknown Error (Worker died)"
+# Moved to sampler.py to avoid pickling/spawn issues on Windows

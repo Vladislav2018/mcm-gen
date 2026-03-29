@@ -1,0 +1,54 @@
+% Table 1: Distribution of tasks across A and B axes (aggregated over C)
+\begin{table}[h]
+\centering
+\begin{tabular}{l|cccc|c}
+\toprule
+\textbf{Structural (A)} & \multicolumn{4}{c|}{\textbf{Semantic (B)}} & \textbf{Total} \\
+ & \textbf{B=0} & \textbf{B=1} & \textbf{B=2} & \textbf{B=3} & \\
+\midrule
+\textbf{A=0} & 60 & 60 & 60 & 25 & \textbf{205} \\
+\textbf{A=1} & 60 & 60 & 60 & 27 & \textbf{207} \\
+\textbf{A=2} & 60 & 60 & 60 & 20 & \textbf{200} \\
+\textbf{A=3} & 60 & 60 & 60 & 26 & \textbf{206} \\
+\midrule
+\textbf{Total} & \textbf{240} & \textbf{240} & \textbf{240} & \textbf{98} & \textbf{818} \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of generated tasks across Structural (A) and Semantic (B) complexity axes.}
+\label{tab:coverage_ab}
+\end{table}
+
+% Table 2: Distribution across Topological Axis (C)
+\begin{table}[h]
+\centering
+\begin{tabular}{llc}
+\toprule
+\textbf{C Class} & \textbf{Description} & \textbf{Tasks} \\
+\midrule
+\textbf{C=0} & Regular & 199 \\
+\textbf{C=1} & Periodic & 210 \\
+\textbf{C=2} & Isolated Singularities & 201 \\
+\textbf{C=3} & Complex/Chaotic & 208 \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of generated tasks across the Topological (C) axis.}
+\label{tab:coverage_c}
+\end{table}
+
+% Table 3: Task Origins
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Source} & \textbf{Count} & \textbf{\%} \\
+\midrule
+auto\_v2 & 353 & 43.2\% \\
+manual\_rich & 283 & 34.6\% \\
+manual & 167 & 20.4\% \\
+auto & 15 & 1.8\% \\
+\bottomrule
+\end{tabular}
+\caption{Origins of the tasks in the MCM-Bench dataset.}
+\label{tab:task_sources}
+\end{table}
+

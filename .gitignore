@@ -1,7 +1,3 @@
-src/__pycache__/__init__.cpython-312.pyc
-src/__pycache__/config.cpython-312.pyc
-promt.md
-mcm_gen.log
 # Python
 __pycache__/
 *.py[cod]
@@ -9,16 +5,37 @@ __pycache__/
 *.so
 .Python
 env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
 venv/
-.env
+ENV/
 
-# VS Code
+# Data and Artifacts
+data/hanging_functions.jsonl
+logs/
+*.log
+
+# IDE
 .vscode/
+.idea/
+*.swp
+.DS_Store
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# Data & Research
-outputs/
-*.csv
-*.npy
+# Temporary outputs
+tmp/
+*.bak
