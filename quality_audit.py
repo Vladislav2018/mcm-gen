@@ -11,9 +11,20 @@ Usage: python quality_audit.py
 import json
 import sympy as sp
 import numpy as np
+import math
 from collections import Counter, defaultdict
 
 OUTPUT_FILE = "data/benchmark_tasks.jsonl"
+
+
+def wilson_score_interval(p, n, z=1.96):
+    """Calculate the Wilson score interval for a proportion at 95% confidence."""
+    if n == 0:
+        return 0, 0
+    denominator = 1 + z**2 / n
+    center = (p + z**2 / (2 * n)) / denominator
+    spread = z * math.sqrt((p * (1 - p) / n) + (z**2 / (4 * n**2))) / denominator
+    return center - spread, center + spread
 
 
 def load_tasks(filepath):
@@ -215,9 +226,16 @@ def run_audit():
     # === 5. Summary ===
     total_b_pass = sum(b_results[b]["pass"] for b in range(4))
     total_c_pass = sum(c_results[c]["pass"] for c in range(4))
+    
+    b_p = total_b_pass / len(tasks)
+    c_p = total_c_pass / len(tasks)
+    
+    b_ci_low, b_ci_high = wilson_score_interval(b_p, len(tasks))
+    c_ci_low, c_ci_high = wilson_score_interval(c_p, len(tasks))
+    
     print(f"\n--- SUMMARY ---")
-    print(f"B-compliance: {total_b_pass}/{len(tasks)} ({total_b_pass/len(tasks)*100:.0f}%)")
-    print(f"C-compliance: {total_c_pass}/{len(tasks)} ({total_c_pass/len(tasks)*100:.0f}%)")
+    print(f"B-compliance: {total_b_pass}/{len(tasks)} ({b_p*100:.1f}%, 95% CI: [{b_ci_low*100:.1f}%, {b_ci_high*100:.1f}%])")
+    print(f"C-compliance: {total_c_pass}/{len(tasks)} ({c_p*100:.1f}%, 95% CI: [{c_ci_low*100:.1f}%, {c_ci_high*100:.1f}%])")
     print(f"Coverage: {len(class_counts)}/64 classes")
 
 
